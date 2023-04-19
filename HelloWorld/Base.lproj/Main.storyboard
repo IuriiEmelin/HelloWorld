@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l0d-4R-0VT">
-                                <rect key="frame" x="16" y="466" width="398" height="422"/>
+                                <rect key="frame" x="16" y="499" width="398" height="389"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" placeholderIntrinsicWidth="344" placeholderIntrinsicHeight="356" translatesAutoresizingMaskIntoConstraints="NO" id="34A-HM-sP7">
-                                <rect key="frame" x="16" y="79" width="398" height="356"/>
+                                <rect key="frame" x="16" y="79" width="398" height="389"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <rect key="contentStretch" x="1" y="1" width="0.94999999999999996" height="1"/>
                             </view>
@@ -33,11 +33,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l0d-4R-0VT" secondAttribute="bottom" constant="10" id="dsc-mm-0PS"/>
                             <constraint firstItem="34A-HM-sP7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dw1-u9-bvZ"/>
                             <constraint firstItem="34A-HM-sP7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="eLz-UG-sOl"/>
-                            <constraint firstItem="34A-HM-sP7" firstAttribute="height" secondItem="l0d-4R-0VT" secondAttribute="height" multiplier="0.843602" id="eg2-tZ-BKv"/>
+                            <constraint firstItem="34A-HM-sP7" firstAttribute="height" secondItem="l0d-4R-0VT" secondAttribute="height" id="eg2-tZ-BKv"/>
                             <constraint firstItem="l0d-4R-0VT" firstAttribute="top" secondItem="34A-HM-sP7" secondAttribute="bottom" constant="31" id="gFq-6I-3Da"/>
                             <constraint firstItem="l0d-4R-0VT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="spp-tf-h70"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l0d-4R-0VT" secondAttribute="trailing" constant="16" id="u4R-7o-TKX"/>
-                            <constraint firstItem="l0d-4R-0VT" firstAttribute="top" secondItem="34A-HM-sP7" secondAttribute="bottom" constant="31" id="xWf-7D-Kym"/>
                         </constraints>
                     </view>
                 </viewController>
